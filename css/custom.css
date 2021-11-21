@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Roboto&family=Roboto+Condensed&display=swap');
+
+:root {
+  --primary-color: #f04b35;
+  --primary-bg-color: #f3f5fa;
+  --main-box-shadow: 6px 4px 7px 1px rgba(0,0,0,0.57);
+    --border-main-color: #E8E8E8;
+    --primary-hover-color: #E8442B;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Important Styling Starts here  */
+
+body {
+  background-color: var(--primary-bg-color) !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Important Styling ends here  */
+
+/* Topbar starts here */
+#top-bar {
+  background-color: var(--primary-color);
+  height: 35px;
+  line-height: 35px;
+}
+
+.top-bar-content {
+  color: white;
+}
+
+/* Topbar ends here */
+
+/* Header Starts here */
+#header .nav-link {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+/* Header ends here */
+
+
+/* Contact Page starts here */
+
+
+/* Contact Description starts here */
+
+#contact-desc i
+{
+  color: var(--primary-color);
+}
+
+
+/* Contact Description ends here */
+
+/* Contact form starts here */
+
+#contact-main
+{
+    height: 400px;
+}
+
+.contact-box-main
+/* .login-main, .signup-main */
+{
+    display: inline-block;
+    border: 2px solid var(--border-main-color);
+    border-radius: 7px;
+    padding-bottom: 30px;
+}
+
+.contact-box-heading
+{
+    background: #0D6EFD;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 0 1px 0;
+}
+
+.contact-box-body
+{
+    padding: 30px 10px;
+    width: 100%;
+
+}
+
+.contact-box-body input
+{
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+.contact-box-body input:focus
+{
+    outline: 2px solid var(--primary-color);
+}
+
+.remember-login-btn, .remember-signup-btn
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.remember-me
+{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+
+.contact-submit-btn
+{
+    border: 1px solid var(--border-main-color);
+    background: var(--primary-color);
+    border-radius: 7px;
+    padding: 3px;
+    width: 20%;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .contact-main
+    {
+        width: 100%;
+    }
+
+    .contact-submit-btn
+    {
+        width: 100%;
+    }
+}
+
+/* Contact form starts here */
+
+/* Contact Page endss here */
